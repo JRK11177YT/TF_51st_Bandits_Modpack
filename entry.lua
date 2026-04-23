@@ -46,9 +46,8 @@ declare_plugin(mod_id, {
 -- Liveries (skins) de los aviones del escuadrón
 mount_vfs_liveries_path(mod_path .. "Liveries")
 
--- Sonidos / música (fondo del menú principal, etc.)
--- Cuando añadas tu música, descomenta esta línea:
--- mount_vfs_sound_path(mod_path .. "Sounds")
+-- Sonidos / música del menú principal
+mount_vfs_sound_path(mod_path .. "Sounds")
 
 -- Texturas adicionales (fondo del menú, loading screen)
 mount_vfs_texture_path(mod_path .. "Resources/Textures")
