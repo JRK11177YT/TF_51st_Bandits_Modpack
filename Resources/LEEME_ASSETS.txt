@@ -1,0 +1,25 @@
+CARPETA: Resources/
+═══════════════════════════════════════════════════════
+Aquí van los recursos visuales/sonoros del modpack.
+
+ARCHIVOS QUE DEBES AÑADIR:
+───────────────────────────────────────────────────────
+ logo.png
+   → Logo del escuadrón. Se muestra en el módulo manager de DCS.
+   → Tamaño recomendado: 256×256 px o 512×512 px (PNG con transparencia).
+
+SUBCARPETAS:
+───────────────────────────────────────────────────────
+ Textures/
+   → Para el fondo del menú principal.
+   → Archivo: menu_background.jpg  (1920×1080 px mínimo)
+
+CÓMO ACTIVAR EL FONDO PERSONALIZADO:
+   1. Pon tu imagen en  Resources/Textures/menu_background.jpg
+   2. Abre  entry.lua  y descomenta la línea:
+         mount_vfs_texture_path(mod_path .. "Resources/Textures")
+   3. Cambia  custom_background = true  en  mod.lua
+
+NOTA SOBRE FORMATOS:
+   DCS acepta  .dds  .png  .jpg  para texturas.
+   Para música usa  .ogg  (recomendado)  o  .wav
