@@ -20,7 +20,19 @@ declare_plugin(mod_id, {
     version       = "1.0.0",
     state         = "installed",
     info          = "Modpack oficial de la Task Force 51st BANDITS.\nIncluye skins, configuraciones y mods del escuadrón.",
+
+    -- Icono principal en el Module Manager (256×256 px, PNG con transparencia)
     image         = mod_path .. "Resources/logo.png",
+
+    -- Banner/tarjeta en el Module Manager (468×234 px)
+    preview       = mod_path .. "Resources/module_banner.png",
+
+    -- Iconos de la barra inferior del menú principal (86×86 px)
+    -- normal / hover / selected
+    icon          = mod_path .. "Resources/icon_menu.png",
+    icon_hover    = mod_path .. "Resources/icon_menu_hover.png",
+    icon_selected = mod_path .. "Resources/icon_menu_sel.png",
+
     update_id     = mod_id,
     plugin_folder = mod_path,
 })
