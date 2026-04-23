@@ -1,0 +1,34 @@
+CÓMO INCLUIR MODS DE TERCEROS EN EL MODPACK
+═══════════════════════════════════════════════════════
+
+Este modpack permite centralizar los mods que usamos en la TF51. 
+Sigue estas instrucciones para que el instalador y el updater los gestionen bien:
+
+1. DESCARGA EL MOD ORIGINAL
+   Descarga el mod de su fuente original (ej: DesdemiCabinaSimulation, DCS User Files, etc.)
+
+2. COLÓCALO EN ESTA CARPETA
+   Dependiendo de qué sea, mételo en su subcarpeta correspondiente:
+   
+   - AVIONES (ej: AH-6 Little Bird):
+     Extrae la carpeta del mod dentro de:  Extra_Mods/Aircraft/
+     Ej: Extra_Mods/Aircraft/AH-6/
+     
+   - BARCOS (ej: Juan Carlos I, Fragatas):
+     Extrae la carpeta del mod dentro de:  Extra_Mods/Ships/
+     Ej: Extra_Mods/Ships/Juan_Carlos_I/
+
+   - SAM SITES / TECH:
+     Extrae la carpeta del mod dentro de:  Extra_Mods/Tech/
+
+3. EL INSTALADOR SE ENCARGA DEL RESTO
+   He actualizado el `install.bat` y el `update.ps1` para que busquen 
+   automáticamente lo que metas aquí y lo instalen en las carpetas 
+   correctas de "Saved Games/DCS/Mods/aircraft" y "Saved Games/DCS/Mods/tech".
+
+IMPORTANTE:
+- Respeta la licencia de los autores originales. Si es para uso interno 
+  del escuadrón, suele estar bien, pero si publicas el modpack en los 
+  foros de DCS, pide permiso antes.
+- No cambies el nombre de las carpetas internas de los mods de terceros, 
+  o el DCS dejará de reconocerlos.

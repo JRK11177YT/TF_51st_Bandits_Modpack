@@ -10,4 +10,5 @@ livery = {
 }
 
 name     = "TF51 BANDITS | Viper #02"
+preview   = "icon.png"
 countries = { "USA", "SPAIN" }

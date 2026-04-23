@@ -34,6 +34,7 @@ livery = {
 
 -- Nombre que aparece en el selector de liveries dentro del juego
 name = "TF51 BANDITS | Hornet #01"
+preview = "icon.png"
 
 -- Códigos de país que podrán usar esta livery
 -- Lista completa: https://wiki.hoggitworld.com/view/DCS_func_coalition

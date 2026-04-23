@@ -38,8 +38,8 @@ mount_vfs_liveries_path(mod_path .. "Liveries")
 -- Cuando añadas tu música, descomenta esta línea:
 -- mount_vfs_sound_path(mod_path .. "Sounds")
 
--- Texturas adicionales (fondo del menú, etc.)
--- mount_vfs_texture_path(mod_path .. "Resources/Textures")
+-- Texturas adicionales (fondo del menú, loading screen)
+mount_vfs_texture_path(mod_path .. "Resources/Textures")
 
 -- ─────────────────────────────────────────────────────────────
 --  Log de inicio
