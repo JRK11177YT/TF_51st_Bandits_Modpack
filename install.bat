@@ -2,7 +2,7 @@
 chcp 65001 > nul
 echo.
 echo  ╔══════════════════════════════════════════════════════╗
-echo  ║     TASK FORCE 51st BANDITS - Modpack Installer     ║
+echo  ║     TASK FORCE 51st BANDITS - Modpack Installer      ║
 echo  ║                    v1.0.0                            ║
 echo  ╚══════════════════════════════════════════════════════╝
 echo.

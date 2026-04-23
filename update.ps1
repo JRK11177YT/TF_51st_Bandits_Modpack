@@ -32,7 +32,7 @@ $RemoteVersion = $null
 # ── Cabecera ──────────────────────────────────────────────────
 Write-Host ""
 Write-Host "  ╔══════════════════════════════════════════════════════╗" -ForegroundColor Cyan
-Write-Host "  ║   TASK FORCE 51st BANDITS - Auto-Updater            ║" -ForegroundColor Cyan
+Write-Host "  ║   TASK FORCE 51st BANDITS - Auto-Updater             ║" -ForegroundColor Cyan
 Write-Host "  ╚══════════════════════════════════════════════════════╝" -ForegroundColor Cyan
 Write-Host ""
 
